@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>OperationResults</Title>
+    <Authors>Matias Gabriel Schwinch</Authors>
+    <Description>Libreria liviana y libre de dependencias para implementar el patrón de resultados en .NET 6 y 8.</Description>
+    <PackageTags>result;pattern;operations</PackageTags>
+  </PropertyGroup>
+
+</Project>
