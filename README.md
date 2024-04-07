@@ -1,12 +1,12 @@
 # Operation Results
 
-Libreria liviana y libre de dependencias para implementar el patrón de resultados en proyectos de .NET 6 y 8, fue construida para resolver requerimientos muy especificos.
+Librería liviana y libre de dependencias para implementar el patrón de resultados en proyectos de .NET 6 y 8, fue construida para resolver requerimientos muy específicos.
 
 ## ¿Cómo empezar?
 
 ### Crear un resultado exitoso
 
-Se pueden crear resultados de exito utilizando el método `Success`
+Se pueden crear resultados de éxito utilizando el método `Success`
 
 ```csharp
 var success = OperationResult.Success();
@@ -60,7 +60,7 @@ var tryActionAndReturnValue = await OperationResult.TryAsync(() =>
 
 ### Comprobar el estado de un resultado
 
-Existen 2 propiedades dentro de un resultado que pueden ser consultadas para verificar el estado de un resultado: `IsSuccess` y `IsFailure`, tambien puede obtener en valor con la propiedad `Value` en caso de corresponder.
+Existen 2 propiedades dentro de un resultado que pueden ser consultadas para verificar el estado de un resultado: `IsSuccess` y `IsFailure`, también puede obtener en valor con la propiedad `Value` en caso de corresponder.
 
 ```csharp
 if (errorWithMessage.IsSuccess)
